@@ -1,0 +1,290 @@
+(
+
+(FAMIX.Package (id: 5)
+	(name '_unknown_package_')
+)
+
+
+
+(FAMIX.Package (id: 7)
+	(name 'src::decent::sample')
+)
+
+
+
+(FAMIX.Module (id: 2)
+	(parentPackage (ref: 5))
+	(name '_unknown_file')
+)
+
+
+
+(FAMIX.FileAnchor (id: 53)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 3)
+	(sourceAnchor (ref: 53))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name '_unknown_type')
+)
+
+
+
+(FAMIX.FileAnchor (id: 54)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 12)
+	(sourceAnchor (ref: 54))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'Object')
+)
+
+
+
+(FAMIX.FileAnchor (id: 55)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 17)
+	(sourceAnchor (ref: 55))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'String')
+)
+
+
+
+(FAMIX.FileAnchor (id: 56)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 24)
+	(sourceAnchor (ref: 56))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'System')
+)
+
+
+
+(FAMIX.FileAnchor (id: 57)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 3)
+	(endLine 38)
+	(startColumn 0)
+	(endColumn 1)
+)
+
+
+
+(FAMIX.Class (id: 11)
+	(sourceAnchor (ref: 57))
+	(parentPackage (ref: 7))
+	(container (ref: 9))
+	(name 'Sample')
+	(AMW 2.00)
+	(BOvR 0.00)
+	(BUR 1.00)
+	(CPFD 0.00)
+	(CW 1.00)
+	(CBO 0.00)
+	(DIT 0.00)
+	(LCOM 6.00)
+	(LCC 1.00)
+	(NOAM 0.00)
+	(NOACCM 0.00)
+	(NAS 0.00)
+	(NOA 0.00)
+	(NOCHLD 0.00)
+	(NOM 4.00)
+	(NOVRM 0.00)
+	(NOPRTA 0.00)
+	(NOPRTM 0.00)
+	(NOPUBA 0.00)
+	(NOPUBM 1.00)
+	(PNAS 0.00)
+	(RFC 4.00)
+	(SPIDX 0.00)
+	(TCC 1.00)
+	(WOC 8.00)
+)
+
+
+
+(FAMIX.FileAnchor (id: 59)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Method (id: 26)
+	(sourceAnchor (ref: 59))
+	(parentType (ref: 3))
+	(declaredType (ref: 3))
+	(name 'println')
+	(signature 'println()')
+	(isPackage true)
+)
+
+
+
+(FAMIX.FileAnchor (id: 60)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 5)
+	(endLine 8)
+	(startColumn 1)
+	(endColumn 2)
+)
+
+
+
+(FAMIX.Method (id: 13)
+	(sourceAnchor (ref: 60))
+	(parentType (ref: 11))
+	(declaredType (ref: 21))
+	(name 'main')
+	(signature 'main(_unknown_path::String)')
+	(hasClassScope true)
+	(isPublic true)
+	(ATFD 0.00)
+	(ALD 0.00)
+	(CYCLO 1.00)
+	(DR 0.00)
+	(ICDO 0.00)
+	(ICIO 0.00)
+	(LOC 4.00)
+	(LOCOMM 1.00)
+	(LDA 1.00)
+	(MAXNESTING 1.00)
+	(NOAV 1.00)
+	(NOOC 1.00)
+	(NOPAR 1.00)
+	(OCDO 0.00)
+	(OCIO 0.00)
+)
+
+
+
+(FAMIX.FileAnchor (id: 61)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 10)
+	(endLine 17)
+	(startColumn 1)
+	(endColumn 2)
+)
+
+
+
+(FAMIX.Method (id: 19)
+	(sourceAnchor (ref: 61))
+	(parentType (ref: 11))
+	(declaredType (ref: 21))
+	(name 'go')
+	(signature 'go()')
+	(isPrivate true)
+	(ATFD 0.00)
+	(ALD 0.00)
+	(CYCLO 1.00)
+	(DR 0.00)
+	(ICDO 0.00)
+	(ICIO 0.00)
+	(LOC 8.00)
+	(LOCOMM 1.00)
+	(LDA 1.00)
+	(MAXNESTING 1.00)
+	(NOAV 1.00)
+	(NOOC 6.00)
+	(NOPAR 0.00)
+	(OCDO 0.00)
+	(OCIO 0.00)
+)
+
+
+
+(FAMIX.FileAnchor (id: 62)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 19)
+	(endLine 25)
+	(startColumn 1)
+	(endColumn 2)
+)
+
+
+
+(FAMIX.Method (id: 27)
+	(sourceAnchor (ref: 62))
+	(parentType (ref: 11))
+	(declaredType (ref: 21))
+	(name 'goFurther')
+	(signature 'goFurther()')
+	(isPrivate true)
+	(ATFD 0.00)
+	(ALD 0.00)
+	(CYCLO 2.00)
+	(DR 0.00)
+	(ICDO 0.00)
+	(ICIO 0.00)
+	(LOC 7.00)
+	(LOCOMM 1.00)
+	(LDA 1.00)
+	(MAXNESTING 2.00)
+	(NOAV 2.00)
+	(NOOC 2.00)
+	(NOPAR 0.00)
+	(OCDO 0.00)
+	(OCIO 0.00)
+)
+
+
+
+(FAMIX.FileAnchor (id: 63)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 27)
+	(endLine 36)
+	(startColumn 1)
+	(endColumn 2)
+)
+
+
+
+(FAMIX.Method (id: 36)
+	(sourceAnchor (ref: 63))
+	(parentType (ref: 11))
+	(declaredType (ref: 21))
+	(name 'goEvenFurther')
+	(signature 'goEvenFurther()')
+	(isPrivate true)
+	(ATFD 0.00)
+	(ALD 0.00)
+	(CYCLO 4.00)
+	(DR 0.00)
+	(ICDO 0.00)
+	(ICIO 0.00)
+	(LOC 10.00)
+	(LOCOMM 1.00)
+	(LDA 1.00)
+	(MAXNESTING 4.00)
+	(NOAV 4.00)
+	(NOOC 2.00)
+	(NOPAR 0.00)
+	(OCDO 0.00)
+	(OCIO 0.00)
+)
+
+
+
+
+)
+

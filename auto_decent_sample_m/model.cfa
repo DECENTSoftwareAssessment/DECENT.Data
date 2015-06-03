@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CFA:CFN xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CFA="http://CFA/1.0" name="auto_decent_sample">
+  <globalStates name="1" ID="1" causes="//@globalStates.3 //@globalStates.11" hunks="5">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="1.5"/>
+      <value key="//@attributes.1" value="0.75"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="1.5"/>
+      <value key="//@attributes.1" value="0.75"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="1.5"/>
+      <value key="//@attributes.1" value="0.75"/>
+    </factors>
+    <artifactStates name=".classpath" ID="1" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.1"/>
+      <action href="model.mg#/0/@actions.0"/>
+    </artifactStates>
+    <artifactStates name=".gitignore" ID="1" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.2"/>
+      <action href="model.mg#/0/@actions.1"/>
+    </artifactStates>
+    <artifactStates name=".project" ID="1" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.3"/>
+      <action href="model.mg#/0/@actions.2"/>
+    </artifactStates>
+    <artifactStates name=".settings/org.eclipse.jdt.core.prefs" ID="1" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.5"/>
+      <action href="model.mg#/0/@actions.3"/>
+    </artifactStates>
+    <artifactStates name="src/decent/sample/Sample.java" ID="1" causes="//@globalStates.3/@artifactStates.0 //@globalStates.11/@artifactStates.1" hunks="1" logicalStates="//@globalStates.0/@logicalStates.0 //@globalStates.0/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.4"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="1" causes="//@globalStates.3/@logicalStates.0 //@globalStates.11/@logicalStates.0" artifactState="//@globalStates.0/@artifactStates.4">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.5"/>
+        <value key="//@attributes.1" value="0.75"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::main(_unknown_path::String)" ID="1" artifactState="//@globalStates.0/@artifactStates.4">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.0"/>
+  </globalStates>
+  <globalStates name="2" ID="2" causes="//@globalStates.6" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="2" causes="//@globalStates.6/@artifactStates.0" hunks="1" logicalStates="//@globalStates.1/@logicalStates.0 //@globalStates.1/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.5"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="2" causes="//@globalStates.6/@logicalStates.0" artifactState="//@globalStates.1/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::main(_unknown_path::String)" ID="2" artifactState="//@globalStates.1/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.1"/>
+  </globalStates>
+  <globalStates name="3" ID="3" causes="//@globalStates.11" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.5"/>
+      <value key="//@attributes.1" value="0.5"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.5"/>
+      <value key="//@attributes.1" value="0.5"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.5"/>
+      <value key="//@attributes.1" value="0.5"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="3" causes="//@globalStates.11/@artifactStates.1" hunks="1" logicalStates="//@globalStates.2/@logicalStates.0 //@globalStates.2/@logicalStates.1 //@globalStates.2/@logicalStates.2">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.6"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="3" causes="//@globalStates.11/@logicalStates.0" artifactState="//@globalStates.2/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.5"/>
+        <value key="//@attributes.1" value="0.5"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.2"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::main(_unknown_path::String)" ID="3" artifactState="//@globalStates.2/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1/@states.2"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.1"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="3" causes="//@globalStates.11/@logicalStates.1" artifactState="//@globalStates.2/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.2"/>
+  </globalStates>
+  <globalStates name="4" ID="4" fixes="//@globalStates.0" causes="//@globalStates.6" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="4" fixes="//@globalStates.0/@artifactStates.4" causes="//@globalStates.6/@artifactStates.0" hunks="1" logicalStates="//@globalStates.3/@logicalStates.0 //@globalStates.3/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.7"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="4" fixes="//@globalStates.0/@logicalStates.0" causes="//@globalStates.6/@logicalStates.0" artifactState="//@globalStates.3/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.3"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="4" causes="//@globalStates.6/@logicalStates.1" artifactState="//@globalStates.3/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.3"/>
+  </globalStates>
+  <globalStates name="5" ID="5" causes="//@globalStates.6" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="0.25"/>
+      <value key="//@attributes.1" value="0.25"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="5" causes="//@globalStates.6/@artifactStates.0" hunks="1" logicalStates="//@globalStates.4/@logicalStates.0 //@globalStates.4/@logicalStates.1 //@globalStates.4/@logicalStates.2">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.8"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="5" causes="//@globalStates.6/@logicalStates.0" artifactState="//@globalStates.4/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="0.25"/>
+        <value key="//@attributes.1" value="0.25"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.4"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="5" artifactState="//@globalStates.4/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.2"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <logicalStates name="Sample::goFurther()" ID="5" causes="//@globalStates.6/@logicalStates.2" artifactState="//@globalStates.4/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.4"/>
+  </globalStates>
+  <globalStates name="6" ID="6" causes="//@globalStates.6 //@globalStates.7" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="1.25"/>
+      <value key="//@attributes.1" value="0.625"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="1.25"/>
+      <value key="//@attributes.1" value="0.625"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="1.25"/>
+      <value key="//@attributes.1" value="0.625"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="6" causes="//@globalStates.6/@artifactStates.0 //@globalStates.7/@artifactStates.0" hunks="1" logicalStates="//@globalStates.5/@logicalStates.0 //@globalStates.5/@logicalStates.1 //@globalStates.5/@logicalStates.2">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.9"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="6" causes="//@globalStates.6/@logicalStates.0 //@globalStates.7/@logicalStates.0" artifactState="//@globalStates.5/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.25"/>
+        <value key="//@attributes.1" value="0.625"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.5"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::goFurther()" ID="6" artifactState="//@globalStates.5/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3"/>
+    </logicalStates>
+    <logicalStates name="Sample::goEvenFurther()" ID="6" causes="//@globalStates.6/@logicalStates.3 //@globalStates.7/@logicalStates.1" artifactState="//@globalStates.5/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="2.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="2.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="2.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.5"/>
+  </globalStates>
+  <globalStates name="7" ID="7" fixes="//@globalStates.3 //@globalStates.1 //@globalStates.4 //@globalStates.5" hunks="3">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="7" fixes="//@globalStates.3/@artifactStates.0 //@globalStates.1/@artifactStates.0 //@globalStates.4/@artifactStates.0 //@globalStates.5/@artifactStates.0" hunks="3" logicalStates="//@globalStates.6/@logicalStates.0 //@globalStates.6/@logicalStates.1 //@globalStates.6/@logicalStates.2 //@globalStates.6/@logicalStates.3">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.10"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="7" fixes="//@globalStates.3/@logicalStates.0 //@globalStates.1/@logicalStates.0 //@globalStates.4/@logicalStates.0 //@globalStates.5/@logicalStates.0" artifactState="//@globalStates.6/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.6"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="7" fixes="//@globalStates.3/@logicalStates.1" artifactState="//@globalStates.6/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.4"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <logicalStates name="Sample::goFurther()" ID="7" fixes="//@globalStates.4/@logicalStates.2" artifactState="//@globalStates.6/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3/@states.2"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.3"/>
+    </logicalStates>
+    <logicalStates name="Sample::goEvenFurther()" ID="7" fixes="//@globalStates.5/@logicalStates.2" artifactState="//@globalStates.6/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.6"/>
+  </globalStates>
+  <globalStates name="8" ID="8" fixes="//@globalStates.5" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <artifactStates name="src/decent/sample/Sample.java" ID="8" fixes="//@globalStates.5/@artifactStates.0" hunks="1" logicalStates="//@globalStates.7/@logicalStates.0 //@globalStates.7/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.11"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="8" fixes="//@globalStates.5/@logicalStates.0" artifactState="//@globalStates.7/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.7"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::goEvenFurther()" ID="8" fixes="//@globalStates.5/@logicalStates.2" artifactState="//@globalStates.7/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4/@states.2"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.4"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.7"/>
+  </globalStates>
+  <globalStates name="9" ID="9" causes="//@globalStates.9" hunks="2">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0" value="1.0"/>
+      <value key="//@attributes.1" value="1.0"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="1.0"/>
+      <value key="//@attributes.1" value="1.0"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0" value="1.0"/>
+      <value key="//@attributes.1" value="1.0"/>
+    </factors>
+    <artifactStates name="readme.txt" ID="9" causes="//@globalStates.9/@artifactStates.0" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <file href="model.mg#/0/@files.10"/>
+      <action href="model.mg#/0/@actions.12"/>
+    </artifactStates>
+    <artifactStates name="src/decent/sample/Sample.java" ID="9" causes="//@globalStates.9/@artifactStates.1" hunks="1" logicalStates="//@globalStates.8/@logicalStates.0 //@globalStates.8/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.13"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="9" causes="//@globalStates.9/@logicalStates.0" artifactState="//@globalStates.8/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.8"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="9" causes="//@globalStates.9/@logicalStates.1" artifactState="//@globalStates.8/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0" value="1.0"/>
+        <value key="//@attributes.1" value="1.0"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.6"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.8"/>
+  </globalStates>
+  <globalStates name="10" ID="10" fixes="//@globalStates.8" hunks="2">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <artifactStates name="readme.txt" ID="10" fixes="//@globalStates.8/@artifactStates.0" hunks="1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.10"/>
+      <action href="model.mg#/0/@actions.14"/>
+    </artifactStates>
+    <artifactStates name="src/decent/sample/Sample.java" ID="10" fixes="//@globalStates.8/@artifactStates.1" hunks="1" logicalStates="//@globalStates.9/@logicalStates.0 //@globalStates.9/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.15"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="10" fixes="//@globalStates.8/@logicalStates.0" artifactState="//@globalStates.9/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.9"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="10" fixes="//@globalStates.8/@logicalStates.1" artifactState="//@globalStates.9/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.7"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.9"/>
+  </globalStates>
+  <globalStates name="11" ID="11" hunks="1">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <artifactStates name="src/decent/sample/App.java" ID="11" hunks="1" logicalStates="//@globalStates.10/@logicalStates.0">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.11"/>
+      <action href="model.mg#/0/@actions.16"/>
+    </artifactStates>
+    <logicalStates name="App" ID="11" artifactState="//@globalStates.10/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.0/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.0"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.10"/>
+  </globalStates>
+  <globalStates name="12" ID="12" fixes="//@globalStates.0 //@globalStates.2" hunks="2">
+    <factors key="//@factors.0">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.1">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <factors key="//@factors.2">
+      <value key="//@attributes.2" value="1.0"/>
+      <value key="//@attributes.0"/>
+      <value key="//@attributes.1"/>
+    </factors>
+    <artifactStates name="src/decent/sample/App.java" ID="12" hunks="1" logicalStates="//@globalStates.11/@logicalStates.2 //@globalStates.11/@logicalStates.3">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.11"/>
+      <action href="model.mg#/0/@actions.17"/>
+    </artifactStates>
+    <artifactStates name="src/decent/sample/Sample.java" ID="12" fixes="//@globalStates.0/@artifactStates.4 //@globalStates.2/@artifactStates.0" hunks="1" logicalStates="//@globalStates.11/@logicalStates.0 //@globalStates.11/@logicalStates.1">
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <file href="model.mg#/0/@files.9"/>
+      <action href="model.mg#/0/@actions.18"/>
+    </artifactStates>
+    <logicalStates name="Sample" ID="12" fixes="//@globalStates.0/@logicalStates.0 //@globalStates.2/@logicalStates.0" artifactState="//@globalStates.11/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0/@states.10"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.0"/>
+    </logicalStates>
+    <logicalStates name="Sample::go()" ID="12" fixes="//@globalStates.2/@logicalStates.2" artifactState="//@globalStates.11/@artifactStates.1">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2/@states.8"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.0/@children.2"/>
+    </logicalStates>
+    <logicalStates name="App" ID="12" artifactState="//@globalStates.11/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.0/@states.1"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.0"/>
+    </logicalStates>
+    <logicalStates name="App::main(_unknown_path::String)" ID="12" artifactState="//@globalStates.11/@artifactStates.0">
+      <factors key="//@factors.1">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.0">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <factors key="//@factors.2">
+        <value key="//@attributes.2" value="1.0"/>
+        <value key="//@attributes.0"/>
+        <value key="//@attributes.1"/>
+      </factors>
+      <state href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.1/@states.0"/>
+      <artifact href="model.decent#/0/@projects.0/@location.0/@artifacts.4/@children.0/@children.0/@children.1/@children.1"/>
+    </logicalStates>
+    <revision href="model.mg#/0/@revisions.11"/>
+  </globalStates>
+  <factors name="Default" description="Default factor - for every change, used as a baseline"/>
+  <factors name="BugFix" description="Bug Fix factor derived from revision label based on regular expressions applied to revision messages"/>
+  <factors name="Fix" description="Based on commit messages, regex:.*(fix|bug|bug:).*"/>
+  <attributes name="TotalWeight" description="Calculated total weight reflecting all caused states disregarding whether they were labelled as states of interest and assigned a corresponding weight factor"/>
+  <attributes name="AverageWeight" description="Calculated average weight by dividing the total weight by the number of caused states"/>
+  <attributes name="WeightFactor" description="Weight factor for state used in calculating weights for causes"/>
+</CFA:CFN>

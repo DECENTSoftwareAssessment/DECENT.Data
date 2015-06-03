@@ -1,0 +1,182 @@
+(
+
+(FAMIX.Package (id: 5)
+	(name '_unknown_package_')
+)
+
+
+
+(FAMIX.Package (id: 7)
+	(name 'src::decent::sample')
+)
+
+
+
+(FAMIX.Module (id: 2)
+	(parentPackage (ref: 5))
+	(name '_unknown_file')
+)
+
+
+
+(FAMIX.FileAnchor (id: 23)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 3)
+	(sourceAnchor (ref: 23))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name '_unknown_type')
+)
+
+
+
+(FAMIX.FileAnchor (id: 24)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 12)
+	(sourceAnchor (ref: 24))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'Object')
+)
+
+
+
+(FAMIX.FileAnchor (id: 25)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 16)
+	(sourceAnchor (ref: 25))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'String')
+)
+
+
+
+(FAMIX.FileAnchor (id: 26)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Class (id: 18)
+	(sourceAnchor (ref: 26))
+	(isStub true)
+	(parentPackage (ref: 5))
+	(name 'System')
+)
+
+
+
+(FAMIX.FileAnchor (id: 27)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 3)
+	(endLine 9)
+	(startColumn 0)
+	(endColumn 1)
+)
+
+
+
+(FAMIX.Class (id: 11)
+	(sourceAnchor (ref: 27))
+	(parentPackage (ref: 7))
+	(container (ref: 9))
+	(name 'Sample')
+	(AMW 1.00)
+	(BOvR 0.00)
+	(BUR 1.00)
+	(CPFD 0.00)
+	(CW 1.00)
+	(CBO 0.00)
+	(DIT 0.00)
+	(LCOM 0.00)
+	(LCC 1.00)
+	(NOAM 0.00)
+	(NOACCM 0.00)
+	(NAS 0.00)
+	(NOA 0.00)
+	(NOCHLD 0.00)
+	(NOM 1.00)
+	(NOVRM 0.00)
+	(NOPRTA 0.00)
+	(NOPRTM 0.00)
+	(NOPUBA 0.00)
+	(NOPUBM 1.00)
+	(PNAS 0.00)
+	(RFC 1.00)
+	(SPIDX 0.00)
+	(TCC 1.00)
+	(WOC 1.00)
+)
+
+
+
+(FAMIX.FileAnchor (id: 29)
+	(fileName '_unknown_path')
+)
+
+
+
+(FAMIX.Method (id: 20)
+	(sourceAnchor (ref: 29))
+	(parentType (ref: 3))
+	(declaredType (ref: 3))
+	(name 'println')
+	(signature 'println()')
+	(isPackage true)
+)
+
+
+
+(FAMIX.FileAnchor (id: 30)
+	(fileName 'src/decent/sample/Sample.java')
+	(startLine 5)
+	(endLine 7)
+	(startColumn 1)
+	(endColumn 2)
+)
+
+
+
+(FAMIX.Method (id: 13)
+	(sourceAnchor (ref: 30))
+	(parentType (ref: 11))
+	(declaredType (ref: 22))
+	(name 'main')
+	(signature 'main(_unknown_path::String)')
+	(hasClassScope true)
+	(isPublic true)
+	(ATFD 0.00)
+	(ALD 0.00)
+	(CYCLO 1.00)
+	(DR 0.00)
+	(ICDO 0.00)
+	(ICIO 0.00)
+	(LOC 3.00)
+	(LOCOMM 1.00)
+	(LDA 1.00)
+	(MAXNESTING 1.00)
+	(NOAV 1.00)
+	(NOOC 1.00)
+	(NOPAR 1.00)
+	(OCDO 0.00)
+	(OCIO 0.00)
+)
+
+
+
+
+)
+
